@@ -1,16 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Live Stock Sales</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:400px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+h1{
+    color:#1f2937;
+    margin-bottom:10px;
+}
+
+p{
+    color:#6b7280;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:block;
+    text-decoration:none;
+    background:#2563eb;
+    color:white;
+    padding:15px;
+    margin:15px 0;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:scale(1.03);
+}
+
+.footer{
+    margin-top:25px;
+    font-size:13px;
+    color:gray;
+}
+</style>
+</head>
+
 <body>
-  <h2>Live Stock Sales</h2>
 
-  <a href="server1.html">
-    <button>Server 1</button>
-  </a>
+<div class="container">
 
-  <br><br>
+    <h1>📦 Live Stock Sales</h1>
 
-  <a href="server2.html">
-    <button>Server 2</button>
-  </a>
+    <p>Select your server</p>
+
+    <a class="btn" href="server1.html">
+        Server 1
+    </a>
+
+    <a class="btn" href="server2.html">
+        Server 2
+    </a>
+
+    <div class="footer">
+        Powered by GitHub Pages
+    </div>
+
+</div>
+
 </body>
 </html>
